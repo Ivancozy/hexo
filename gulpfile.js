@@ -1,11 +1,3 @@
-/*
- * @Description: gulp
- * @Author: 安知鱼
- * @Email: 2268025923@qq.com
- * @Date: 2022-02-22 11:22:57
- * @LastEditTime: 2022-08-18 12:24:11
- * @LastEditors: 安知鱼
- */
 import gulp from "gulp";
 import cleanCSS from "gulp-clean-css";
 import htmlmin from "gulp-htmlmin";

@@ -1,11 +1,3 @@
-/*
- * @Description: sw
- * @Author: 安知鱼
- * @Email: 2268025923@qq.com
- * @Date: 2022-02-22 11:23:58
- * @LastEditTime: 2022-03-08 12:24:30
- * @LastEditors: 安知鱼
- */
 const workboxVersion = "5.1.3";
 
 importScripts(`https://storage.googleapis.com/workbox-cdn/releases/${workboxVersion}/workbox-sw.js`);
