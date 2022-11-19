@@ -4,8 +4,8 @@
     "theme_color": "#3b70fc",
     "background_color": "#3b70fc",
     "display": "standalone",
-    "scope": "mirl.ml",
-    "start_url": "mirl.ml",
+    "scope": "/",
+    "start_url": "/",
     "icons": [
       {
         "src": "/img/siteicon/logo5.png",
