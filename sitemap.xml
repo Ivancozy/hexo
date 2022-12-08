@@ -29,24 +29,6 @@
   </url>
   
   <url>
-    <loc>https://mirl.ml/essay/index.html</loc>
-    
-    <lastmod>2022-12-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mirl.ml/fcircle/index.html</loc>
-    
-    <lastmod>2022-12-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://mirl.ml/posts/d9e.html</loc>
     
     <lastmod>2022-12-08</lastmod>
@@ -75,6 +57,24 @@
   
   <url>
     <loc>https://mirl.ml/categories/index.html</loc>
+    
+    <lastmod>2022-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mirl.ml/essay/index.html</loc>
+    
+    <lastmod>2022-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mirl.ml/fcircle/index.html</loc>
     
     <lastmod>2022-12-08</lastmod>
     
