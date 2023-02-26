@@ -1,43 +1,43 @@
-var anzhiyu_musicPlaying = false;
-var anzhiyu_musicStretch = false;
-var anzhiyu_musicFirst = false;
-var anzhiyu = {
+var ivany_musicPlaying = false;
+var ivany_musicStretch = false;
+var ivany_musicFirst = false;
+var ivany = {
   //切换音乐播放状态
   musicToggle: function (changePaly = true) {
-    if (!anzhiyu_musicFirst) {
+    if (!ivany_musicFirst) {
       musicBindEvent();
-      anzhiyu_musicFirst = true;
+      ivany_musicFirst = true;
     }
     let msgPlay = '<i class="fa-solid fa-play"></i><span>播放音乐</span>'; // 此處可以更改為你想要顯示的文字
     let msgPause = '<i class="fa-solid fa-pause"></i><span>暂停音乐</span>'; // 同上，但兩處均不建議更改
-    if (anzhiyu_musicPlaying) {
+    if (ivany_musicPlaying) {
       document.querySelector("#nav-music").classList.remove("playing");
       // 修改右键菜单文案为播放
       // document.getElementById("menu-music-toggle").innerHTML = msgPlay;
       document.getElementById("nav-music-hoverTips").innerHTML = "音乐已暂停";
       // document.querySelector("#consoleMusic").classList.remove("on");
-      anzhiyu_musicPlaying = false;
+      ivany_musicPlaying = false;
       document.querySelector("#nav-music").classList.remove("stretch");
-      anzhiyu_musicStretch = false;
+      ivany_musicStretch = false;
     } else {
       document.querySelector("#nav-music").classList.add("playing");
       // 修改右键菜单文案为暂停
       // document.getElementById("menu-music-toggle").innerHTML = msgPause;
       // document.querySelector("#consoleMusic").classList.add("on");
-      anzhiyu_musicPlaying = true;
+      ivany_musicPlaying = true;
       document.querySelector("#nav-music").classList.add("stretch");
-      anzhiyu_musicStretch = true;
+      ivany_musicStretch = true;
     }
     if (changePaly) document.querySelector("#nav-music meting-js").aplayer.toggle();
   },
   // 音乐伸缩
   musicTelescopic: function () {
-    if (anzhiyu_musicStretch) {
+    if (ivany_musicStretch) {
       document.querySelector("#nav-music").classList.remove("stretch");
-      anzhiyu_musicStretch = false;
+      ivany_musicStretch = false;
     } else {
       document.querySelector("#nav-music").classList.add("stretch");
-      anzhiyu_musicStretch = true;
+      ivany_musicStretch = true;
     }
   },
 
