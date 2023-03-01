@@ -1143,7 +1143,7 @@ li.categoryBar-list-item {
   }
   #bbTimeList{
     position: absolute;
-    margin-top: -495px !important;
+    margin-top: -512px !important;
     width: 1470px !important;
   }
   #recent-posts .recent-post-item:hover .blog-slider__img{
@@ -1160,7 +1160,7 @@ li.categoryBar-list-item {
 @media screen and (min-width:1220px) and (max-width:2000px){
   #bbTimeList {
     position: absolute;
-    margin-top: -495px !important;
+    margin-top: -512px !important;
     width: 1170px !important;
   }
 }
@@ -1173,7 +1173,7 @@ li.categoryBar-list-item {
 @media screen and (min-width:600px) and (max-width:1220px){
   #bbTimeList {
     position: absolute;
-    margin-top: -495px !important;
+    margin-top: -512px !important;
     width: 97% !important;
   }  
 }
@@ -1735,6 +1735,7 @@ img.footer_mini_logo {
 
 #nav a {
   color: var(--font-color);
+  font-weight: 700;
 }
 
 /* 主页与头部标签栏间距 */
@@ -2824,6 +2825,9 @@ li.category-list-item:nth-of-type(8) {
 }
 .article-sort-title::after{
   content: unset !important;
+}
+#runtime {
+  width: 185px !important;
 }
 
   /* V2-banner */
